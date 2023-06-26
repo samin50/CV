@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:5173/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">
+import RefreshRuntime from "/@react-refresh"
+RefreshRuntime.injectIntoGlobalHook(window)
+window.$RefreshReg$ = () => {}
+window.$RefreshSig$ = () => (type) => type
+window.__vite_plugin_react_preamble_installed__ = true
+</script>
+
+    <script type="module" src="./Shaheen Amin CV_files/client"></script>
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shaheen Amin CV</title>
+  <style type="text/css" id="operaUserStyle"></style><style type="text/css" data-vite-dev-id="C:/Users/Shaheen/Desktop/Personal Files/Projects/CV/src/App.css">#root {
+  margin: 0 auto;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+</style><style type="text/css" data-vite-dev-id="C:/Users/Shaheen/Desktop/Personal Files/Projects/CV/src/index.css">/*
+! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
+*//*
+1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
+2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
+*/
+
+*,
+::before,
+::after {
+  box-sizing: border-box; /* 1 */
+  border-width: 0; /* 2 */
+  border-style: solid; /* 2 */
+  border-color: #e5e7eb; /* 2 */
+}
+
+::before,
+::after {
+  --tw-content: '';
+}
+
+/*
+1. Use a consistent sensible line-height in all browsers.
+2. Prevent adjustments of font size after orientation changes in iOS.
+3. Use a more readable tab size.
+4. Use the user's configured `sans` font-family by default.
+5. Use the user's configured `sans` font-feature-settings by default.
+6. Use the user's configured `sans` font-variation-settings by default.
+*/
+
+html {
+  line-height: 1.5; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  -moz-tab-size: 4; /* 3 */
+  -o-tab-size: 4;
+     tab-size: 4; /* 3 */
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-feature-settings: normal; /* 5 */
+  font-variation-settings: normal; /* 6 */
+}
+
+/*
+1. Remove the margin in all browsers.
+2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
+*/
+
+body {
+  margin: 0; /* 1 */
+  line-height: inherit; /* 2 */
+}
+
+/*
+1. Add the correct height in Firefox.
+2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
+3. Ensure horizontal rules are visible by default.
+*/
+
+hr {
+  height: 0; /* 1 */
+  color: inherit; /* 2 */
+  border-top-width: 1px; /* 3 */
+}
+
+/*
+Add the correct text decoration in Chrome, Edge, and Safari.
+*/
+
+abbr:where([title]) {
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+}
+
+/*
+Remove the default font size and weight for headings.
+*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*
+Reset links to optimize for opt-in styling instead of opt-out.
+*/
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/*
+Add the correct font weight in Edge and Safari.
+*/
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/*
+1. Use the user's configured `mono` font family by default.
+2. Correct the odd `em` font sizing in all browsers.
+*/
+
+code,
+kbd,
+samp,
+pre {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/*
+Add the correct font size in all browsers.
+*/
+
+small {
+  font-size: 80%;
+}
+
+/*
+Prevent `sub` and `sup` elements from affecting the line height in all browsers.
+*/
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/*
+1. Remove text indentation from table contents in Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=999088, https://bugs.webkit.org/show_bug.cgi?id=201297)
+2. Correct table border color inheritance in all Chrome and Safari. (https://bugs.chromium.org/p/chromium/issues/detail?id=935729, https://bugs.webkit.org/show_bug.cgi?id=195016)
+3. Remove gaps between table borders by default.
+*/
+
+table {
+  text-indent: 0; /* 1 */
+  border-color: inherit; /* 2 */
+  border-collapse: collapse; /* 3 */
+}
+
+/*
+1. Change the font styles in all browsers.
+2. Remove the margin in Firefox and Safari.
+3. Remove default padding in all browsers.
+*/
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  font-weight: inherit; /* 1 */
+  line-height: inherit; /* 1 */
+  color: inherit; /* 1 */
+  margin: 0; /* 2 */
+  padding: 0; /* 3 */
+}
+
+/*
+Remove the inheritance of text transform in Edge and Firefox.
+*/
+
+button,
+select {
+  text-transform: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Remove default button styles.
+*/
+
+button,
+[type='button'],
+[type='reset'],
+[type='submit'] {
+  -webkit-appearance: button; /* 1 */
+  background-color: transparent; /* 2 */
+  background-image: none; /* 2 */
+}
+
+/*
+Use the modern Firefox focus style for all focusable elements.
+*/
+
+:-moz-focusring {
+  outline: auto;
+}
+
+/*
+Remove the additional `:invalid` styles in Firefox. (https://github.com/mozilla/gecko-dev/blob/2f9eacd9d3d995c937b4251a5557d95d494c9be1/layout/style/res/forms.css#L728-L737)
+*/
+
+:-moz-ui-invalid {
+  box-shadow: none;
+}
+
+/*
+Add the correct vertical alignment in Chrome and Firefox.
+*/
+
+progress {
+  vertical-align: baseline;
+}
+
+/*
+Correct the cursor style of increment and decrement buttons in Safari.
+*/
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/*
+1. Correct the odd appearance in Chrome and Safari.
+2. Correct the outline style in Safari.
+*/
+
+[type='search'] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/*
+Remove the inner padding in Chrome and Safari on macOS.
+*/
+
+::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/*
+1. Correct the inability to style clickable types in iOS and Safari.
+2. Change font properties to `inherit` in Safari.
+*/
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/*
+Add the correct display in Chrome and Safari.
+*/
+
+summary {
+  display: list-item;
+}
+
+/*
+Removes the default spacing and border for appropriate elements.
+*/
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+ol,
+ul,
+menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+Prevent resizing textareas horizontally by default.
+*/
+
+textarea {
+  resize: vertical;
+}
+
+/*
+1. Reset the default placeholder opacity in Firefox. (https://github.com/tailwindlabs/tailwindcss/issues/3300)
+2. Set the default placeholder color to the user's configured gray 400 color.
+*/
+
+input::-moz-placeholder, textarea::-moz-placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 1; /* 1 */
+  color: #9ca3af; /* 2 */
+}
+
+/*
+Set the default cursor for buttons.
+*/
+
+button,
+[role="button"] {
+  cursor: pointer;
+}
+
+/*
+Make sure disabled buttons don't get the pointer cursor.
+*/
+:disabled {
+  cursor: default;
+}
+
+/*
+1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
+2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
+   This can trigger a poorly considered lint error in some tools but is included by design.
+*/
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+  display: block; /* 1 */
+  vertical-align: middle; /* 2 */
+}
+
+/*
+Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
+*/
+
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Make elements with the HTML hidden attribute stay hidden by default */
+[hidden] {
+  display: none;
+}
+
+*, ::before, ::after {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+
+::backdrop {
+  --tw-border-spacing-x: 0;
+  --tw-border-spacing-y: 0;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  --tw-pan-x:  ;
+  --tw-pan-y:  ;
+  --tw-pinch-zoom:  ;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
+  --tw-ordinal:  ;
+  --tw-slashed-zero:  ;
+  --tw-numeric-figure:  ;
+  --tw-numeric-spacing:  ;
+  --tw-numeric-fraction:  ;
+  --tw-ring-inset:  ;
+  --tw-ring-offset-width: 0px;
+  --tw-ring-offset-color: #fff;
+  --tw-ring-color: rgb(59 130 246 / 0.5);
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+  --tw-blur:  ;
+  --tw-brightness:  ;
+  --tw-contrast:  ;
+  --tw-grayscale:  ;
+  --tw-hue-rotate:  ;
+  --tw-invert:  ;
+  --tw-saturate:  ;
+  --tw-sepia:  ;
+  --tw-drop-shadow:  ;
+  --tw-backdrop-blur:  ;
+  --tw-backdrop-brightness:  ;
+  --tw-backdrop-contrast:  ;
+  --tw-backdrop-grayscale:  ;
+  --tw-backdrop-hue-rotate:  ;
+  --tw-backdrop-invert:  ;
+  --tw-backdrop-opacity:  ;
+  --tw-backdrop-saturate:  ;
+  --tw-backdrop-sepia:  ;
+}
+.prose :where(h1):not(:where([class~="not-prose"] *)) {
+  font-size: 1.875rem;
+  font-size: [object Object];
+}
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.mb-0 {
+  margin-bottom: 0px;
+}
+.mb-0\.5 {
+  margin-bottom: 0.125rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.ml-8 {
+  margin-left: 2rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
+}
+.flex {
+  display: flex;
+}
+.h-44 {
+  height: 11rem;
+}
+.h-6 {
+  height: 1.5rem;
+}
+.h-\[2px\] {
+  height: 2px;
+}
+.h-\[8px\] {
+  height: 8px;
+}
+.h-full {
+  height: 100%;
+}
+.w-1\/5 {
+  width: 20%;
+}
+.w-4\/5 {
+  width: 80%;
+}
+.w-auto {
+  width: auto;
+}
+.w-full {
+  width: 100%;
+}
+.w-screen {
+  width: 100vw;
+}
+.list-square {
+  list-style-type: square;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.gap-3 {
+  gap: 0.75rem;
+}
+.space-y-1 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
+}
+.rounded-md {
+  border-radius: 0.375rem;
+}
+.bg-\[\#2B343D\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(43 52 61 / var(--tw-bg-opacity));
+}
+.bg-\[\#95999E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(149 153 158 / var(--tw-bg-opacity));
+}
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+.p-4 {
+  padding: 1rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.pb-0 {
+  padding-bottom: 0px;
+}
+.pb-0\.5 {
+  padding-bottom: 0.125rem;
+}
+.pb-1 {
+  padding-bottom: 0.25rem;
+}
+.pb-3 {
+  padding-bottom: 0.75rem;
+}
+.pb-5 {
+  padding-bottom: 1.25rem;
+}
+.pl-5 {
+  padding-left: 1.25rem;
+}
+.pl-6 {
+  padding-left: 1.5rem;
+}
+.pl-72 {
+  padding-left: 18rem;
+}
+.pt-1 {
+  padding-top: 0.25rem;
+}
+.pt-2 {
+  padding-top: 0.5rem;
+}
+.pt-3 {
+  padding-top: 0.75rem;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-thin {
+  font-weight: 100;
+}
+.text-\[\#2B343D\] {
+  --tw-text-opacity: 1;
+  color: rgb(43 52 61 / var(--tw-text-opacity));
+}
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.filter {
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("fonts/Raleway.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Raleway_2;
+  src: url("fonts/Raleway_2.ttf") format("opentype");
+}
+
+@font-face {
+  font-family: Raleway_3;
+  src: url("fonts/Raleway_3.ttf") format("opentype");
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+</style></head>
+  <body>
+    <div id="root"><div class="bg-white w-screen h-full"><div class="flex h-full w-full justify-end py-8"><div class="ml-8"><div class="bg-[#2B343D] w-full h-44 prose p-4 pt-3 pl-6 mb-6"><h1 class="font-primary font-thin pb-0.5 text-4xl">Shaheen Amin</h1><h2 class="font-primary font-thin text-xl pb-1">Software/Hardware Engineer</h2><div class="bg-white w-full h-[2px] mb-2"></div><div class="text-sm">Capable and confident in my work, with an excellent ability to communicate with my peers and devise complex yet efficient engineering solutions to any problem that may arise. Proficient in several languages and their associated tools and very quick to learn new skills.</div></div><div class="flex flex-row prose"><div class="w-1/5"><svg class="w-auto h-6 mb-0.5" viewBox="2 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 15L20 15" stroke="#2B343D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M4 9L20 9" stroke="#2B343D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <circle cx="12" cy="12" r="9" stroke="#2B343D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle> <path d="M12.0004 20.8182L11.2862 21.5181C11.4742 21.7101 11.7317 21.8182 12.0004 21.8182C12.2691 21.8182 12.5265 21.7101 12.7146 21.5181L12.0004 20.8182ZM12.0004 3.18188L12.7146 2.48198C12.5265 2.29005 12.2691 2.18188 12.0004 2.18188C11.7317 2.18188 11.4742 2.29005 11.2861 2.48198L12.0004 3.18188ZM14.6004 12.0001C14.6004 15.1611 13.3373 18.0251 11.2862 20.1183L12.7146 21.5181C15.1173 19.0662 16.6004 15.7053 16.6004 12.0001H14.6004ZM11.2861 3.88178C13.3373 5.97501 14.6004 8.83903 14.6004 12.0001H16.6004C16.6004 8.29478 15.1173 4.93389 12.7146 2.48198L11.2861 3.88178ZM9.40039 12.0001C9.40039 8.83903 10.6634 5.97501 12.7146 3.88178L11.2861 2.48198C8.88347 4.93389 7.40039 8.29478 7.40039 12.0001H9.40039ZM12.7146 20.1183C10.6634 18.0251 9.40039 15.1611 9.40039 12.0001H7.40039C7.40039 15.7053 8.88348 19.0662 11.2862 21.5181L12.7146 20.1183Z" fill="#2B343D"></path> </g></svg><div class="text-black font-secondary text-lg"><a class="text-black hover:text-black hover:mouse-pointer font-normal" href="https://samin50.github.io/" target="_blank">https://samin50.github.io</a></div><svg fill="#2B343D" class="w-auto h-6 mb-0.5 mt-2" viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M1920 428.266v1189.54l-464.16-580.146-88.203 70.585 468.679 585.904H83.684l468.679-585.904-88.202-70.585L0 1617.805V428.265l959.944 832.441L1920 428.266ZM1919.932 226v52.627l-959.943 832.44L.045 278.628V226h1919.887Z" fill-rule="evenodd"></path> </g></svg><div class="text-black font-secondary font-normal text-lg">Contact on Website</div><svg class="w-auto h-6 mb-0.5 mt-2" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="4 0 64 64" enable-background="new 0 0 64 64" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill="#2B343D" d="M32,0C18.746,0,8,10.746,8,24c0,5.219,1.711,10.008,4.555,13.93c0.051,0.094,0.059,0.199,0.117,0.289l16,24 C29.414,63.332,30.664,64,32,64s2.586-0.668,3.328-1.781l16-24c0.059-0.09,0.066-0.195,0.117-0.289C54.289,34.008,56,29.219,56,24 C56,10.746,45.254,0,32,0z M32,32c-4.418,0-8-3.582-8-8s3.582-8,8-8s8,3.582,8,8S36.418,32,32,32z"></path> </g></svg><div class="text-black font-secondary font-normal text-lg mb-5">London, United Kingdom</div><div class="text-[#2B343D] font-secondary font-semibold text-3xl">SKILLS</div><div class="w-full bg-[#2B343D] h-[2px] mb-3"></div><div class="flex flex-wrap gap-3 mb-5"><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">UI/UX Design</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Big Data</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Quartus</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Communication</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Verilog</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">FPGA</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Computer Vision</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Teamwork</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Machine Learning</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Dynamic Programming</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Leadership</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Big Data Analysis</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Sentiment Analysis</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">NLP</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">Excel</div><div class="bg-[#95999E] w-auto px-3 py-1 rounded-md font-thin text-lg font-primary">AWS</div></div><div class="text-[#2B343D] font-secondary font-semibold text-3xl">LANGUAGES</div><div class="w-full bg-[#2B343D] h-[2px] mb-3"></div><div class="text-black mb-2 font-secondary text-lg font-medium">Python</div><div class="h-[8px] w-full mb-2 bg-gray-300 rounded-md"><div class="bg-[#2B343D] rounded-md h-full" style="width: 100%;"></div></div><div class="text-black mb-2 font-secondary text-lg font-medium">C/C++</div><div class="h-[8px] w-full mb-2 bg-gray-300 rounded-md"><div class="bg-[#2B343D] rounded-md h-full" style="width: 90%;"></div></div><div class="text-black mb-2 font-secondary text-lg font-medium">Java</div><div class="h-[8px] w-full mb-2 bg-gray-300 rounded-md"><div class="bg-[#2B343D] rounded-md h-full" style="width: 40%;"></div></div><div class="text-black mb-2 font-secondary text-lg font-medium">SQL</div><div class="h-[8px] w-full mb-2 bg-gray-300 rounded-md"><div class="bg-[#2B343D] rounded-md h-full" style="width: 95%;"></div></div><div class="text-black mb-2 font-secondary text-lg font-medium">Verilog</div><div class="h-[8px] w-full mb-2 bg-gray-300 rounded-md"><div class="bg-[#2B343D] rounded-md h-full" style="width: 80%;"></div></div><div class="w-full"></div></div><div class="mx-8 w-4/5"><div class="text-[#2B343D] font-secondary font-semibold text-3xl pl-5">EDUCATION</div><div class="w-full bg-[#2B343D] h-[2px]"></div><div class="text-[#2B343D] text-3xl pt-2 pl-5 font-medium">Electronics and Information Engineering/Computer Engineering MEng</div><div class="text-[#2B343D] text-2xl pl-5">Imperial College London</div><div class="text-[#2B343D] text-xl pl-5 font-light"><em>06/2020 - Present</em></div><div class="text-[#2B343D] text-lg pl-5 font-light"><em>Learned skills include, but not limited to:</em></div><div class="flex flex-wrap flex-row text-black pl-5 pt-1"><ul class="space-y-1 list-square pl-5 text-lg font-light pb-5"><li>Chip Design</li><li>Computer Architecture</li><li>Quartus + Intel FPGA</li><li>Dynamic Programming</li><li>Web Development</li></ul><ul class="space-y-1 list-square pl-72 text-lg font-light"><li>Machine Learning</li><li>Verilog-based Computer Vision</li><li>Linear Algebra</li><li>OpenGL and Raytracing</li></ul></div><div class="text-[#2B343D] font-secondary font-semibold text-3xl pl-5">PROJECTS</div><div class="w-full bg-[#2B343D] h-[2px] mb-2"></div><div class="text-black pl-5"><div class="text-2xl font-primary font-light">Digital Circuit Simulator and Simplifier (01/2019 - 12/2019)</div><ul class="list-square text-lg font-light pl-5 pb-3"><li>Developed a digital circuit simulator and simplifier in C++</li></ul><div class="text-2xl font-primary font-light">Dual Core CPU Design (06/2021 - 07/2021)</div><ul class="list-square text-lg font-light pl-5 pb-3"><li>Successfully designed and tested a working dual-core CPU at gate-level and executed a program to find the mean value of integers in an array in memory. The program was hardcoded into the simulated RAM and performed twice as fast as its single-core counterpart.</li></ul><div class="text-2xl font-primary font-light">Building a C-Compiler (02/2022 - 03/2022)</div><ul class="list-square text-lg font-light pl-5 pb-3"><li>Working with one other pair, we built a functioning C Compiler to generate MIPS Assembly from C code, represented using Abstract Syntax Trees and lexing/parsing using Flex, Bison and High-Level C++ OOP.</li></ul><div class="text-2xl font-primary font-light">Group Project: Online FPGA-Controlled Motion-Based Drawing Game (02/2022 - 03/2022)</div><ul class="list-square text-lg font-light pl-5 pb-3"><li>Using a NIOS II Processor and Accelerometer on an Intel FPGA, we created a multiplayer drawing game (each client on different networks) that used the FPGA as a drawing tool/stylus. The accelerometer data passed through a moving-average filter, to enable smoother inputs for the user - all drawing tools were made available to the user through the FPGA's buttons and switches, and the user's score was shown clearly on the 8-segment displays.</li></ul><div class="text-2xl font-primary font-light">Group Project: Mars Rover (05/2022 - 06/2022)</div><ul class="list-square text-lg font-light pl-5 pb-3"><li>Fully autonomous Mars Rover which scanned the environment using a Computer Vision algorithm written in Verilog and C that I developed - the Rover had the task of avoiding coloured balls as obstacles in an unevenly illuminated room. The designed algorithm was able to identify the distance to each distinct target and performed HSV conversions to find them. Additionally, the algorithm was able to perform noise rejection, and ignore any cluster of pixels that were not part of the larger body of the obstacle.</li></ul></div><div class="text-[#2B343D] font-secondary font-semibold text-3xl pl-5">EXPERIENCE</div><div class="w-full bg-[#2B343D] h-[2px]"></div><div class="text-[#2B343D] text-3xl pt-2 pl-5 font-medium">Software Engineer Intern</div><div class="text-[#2B343D] text-3xl pl-5">Jacobs</div><div class="text-[#2B343D] text-xl pl-5 font-light"><em>07/2019 - 08/2019</em></div><ul class="list-square text-lg font-light pl-5 pb-3 text-black"><li>Designed a webscraper that was used to gather and extract the necessary data and condense it into a CSV (to be edited in Excel) for my peers who would have otherwise undertaken this manually. The achieved throughput was 120 websites/minute, (then intentionally bottlenecked to prevent overloading the server).</li><li>Used a combination of Natural Language Processing, Twitter API, PowerBI, SQL, AWS and Python to create a program that would elegantly display the public's 'sentiment' towards any specific keyword or phrase. A database was used to store the anonymized data and queried to show the graphs on the PowerBI interface.</li></ul></div></div></div></div></div></div>
+    <script type="module" src="./Shaheen Amin CV_files/main.tsx"></script>
+  
+
+</body></html>
