@@ -3,8 +3,8 @@ export default {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
     "./*.{html,js,ts,jsx}",
-    "./node_modules/flowbite/**/*.js",
-  ],
+    "./node_modules/flowbite/**/*.js"],
+  mode: "jit",
   theme: {
     extend: {
       fontFamily: {
