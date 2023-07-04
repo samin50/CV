@@ -6,8 +6,8 @@ function App() {
   const badges = ["UI/UX Design", "Big Data", "Quartus", "Communication", "Verilog", "FPGA", "Computer Vision", "Teamwork", "Machine Learning", "Dynamic Programming", "Leadership", "Big Data Analysis", "Sentiment Analysis", "NLP", "Excel", "AWS"];
   return (
     <>
-      <div className='bg-white'>
-        <div className='flex h-full w-full justify-end py-4'>
+      <div className='bg-white h-a4'>
+        <div className='flex h-full w-full justify-end pb-4 pt-4 print:pt-0'>
           <div className='ml-6'>
             {/* Banner */}
             <div className='bg-[#2B343D] w-full h-30 prose p-4 pt-3 pl-4 mb-6'>

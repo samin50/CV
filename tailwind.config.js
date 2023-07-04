@@ -20,7 +20,7 @@ export default {
         a4: '210mm',
       },
       height: {
-        a4: '297mm',
+        a4: '594mm',
       },
     },
     listStyleType: {
