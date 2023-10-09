@@ -9,11 +9,7 @@ export default {
     extend: {
       fontFamily: {
         primary: "Raleway",
-      },
-      fontFamily: {
         secondary: "Raleway_2",
-      },
-      fontFamily: {
         tertiary: "Raleway_3",
       },
       width: {
@@ -21,6 +17,13 @@ export default {
       },
       height: {
         a4: '594mm',
+        doublea4: '1192mm',
+      },
+      fontSize: {
+        'title': '1.875rem',
+        'heading': '1.125rem',
+        "text": "0.75rem",
+        "tiny": "0.625rem",
       },
     },
     listStyleType: {
