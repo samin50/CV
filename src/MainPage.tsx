@@ -17,9 +17,7 @@ function MainPage() {
               </div>
               <div className='bg-white w-full h-[1.5px] mb-1'></div>
               <div className="text-text font-[400]">
-                Capable and confident in my work, with an excellent ability to communicate with my peers and devise complex yet efficient
-                engineering solutions to any problem that may arise. Proficient in several languages and their associated tools and very quick to
-                learn new skills.
+                Capable and confident in my work, with an excellent ability to communicate with my peers and devise complex yet efficient engineering solutions to any problem that may arise. Proficient in several languages and their associated tools and very quick to learn new skills.
               </div>
             </div>
             <div className='flex flex-row prose'>
@@ -52,50 +50,46 @@ function MainPage() {
                 {/* Progress bars */}
                 <div className='w-full bg-[#2B343D] h-[2px] mb-3'></div>
                   <ProgressBar name="Python" percent="100%"/>
+                  <ProgressBar name="PCB Design" percent="70%"/>
+                  <ProgressBar name="CAD Design" percent="70%"/>
                   <ProgressBar name="C/C++" percent="90%"/>
                   <ProgressBar name="Java" percent="70%"/>
                   <ProgressBar name="SQL" percent="95%"/>
                   <ProgressBar name="Verilog" percent="80%"/>
-                  <ProgressBar name="HTML/TailwindCSS" percent="80%"/>
+                  <ProgressBar name="Web Dev" percent="70%"/>
                 <div className='w-full'>
                 </div>
                 </div>
               {/* Body  */}
-              <div className="ml-2 w-10/12 mr-4">
+              <div className="ml-2 w-10/12 mr-6">
                 {/* Experience */}
                 <div className='text-[#2B343D] font-secondary font-bold text-heading pl-3'>EXPERIENCE</div>
                 <div className='w-full bg-[#2B343D] h-[1.5px]'></div>
                 <div className="text-[#2B343D] text-heading pt-1 pl-3">Amadeus IT Group - Software Development Engineer</div>
+                <div className="text-[#2B343D] text-sm pl-3 font-light"><em>09/2024 - Present</em></div>
+                <ul className='list-square text-text font-light pl-10 text-black'>
+                  <li>
+                    Customer-facing role ensuring high-quality service and timely resolution of check-in issues for airline clients. Implements new features and supports continuous improvement efforts to maintain target performance metrics in production and test environments.
+                  </li>
+                </ul>
+                <div className="text-[#2B343D] text-heading pt-1 pl-3">Amadeus IT Group - Software Development Intern</div>
                 <div className="text-[#2B343D] text-sm pl-3 font-light"><em>04/2023 - 10/2023</em></div>
                 <ul className='list-square text-text font-light pl-10 text-black'>
                   <li>
-                    Designed two internal tools for the company, written in Python, one of which interacted with Atlassian's Confluence API to
-                    automatically scan, repair and update pages using a front end of my own design. This tool saved several
-                    hundred hours of manual work for the company and several demos were hosted to showcase the tool to
-                    other teams. The second tool analysed an Amadeus product written in Java to produce tablulated data that was
-                    essential for documentation that went to the customer. Again, this tool saved several hundred hours of manual
-                    work.
+                    Developed two Python-based tools to automate Confluence page maintenance and analyze Java-based product data, saving hundreds of hours of manual effort.
                   </li>
                   <li>
-                    During my time at Amadeus, I hosted several demos to showcase my work to other teams and received very positive
-                    feedback, and delivered a powerful final presentation to several senior members of the company and it was very
-                    well received.
+                    Led multiple demos to cross-functional teams and delivered a well-received final presentation to senior leadership.
                   </li>
                 </ul>
                 <div className="text-[#2B343D] text-heading pl-3 pt-1">Jacobs - Software Engineer Intern</div>
                 <div className="text-[#2B343D] text-sm pl-3 font-light"><em>07/2019 - 08/2019</em></div>
                 <ul className='list-square text-text font-light pl-10 pb-3 text-black'>
                   <li>
-                    Designed a webscraper that was used to gather and extract the necessary data and condense
-                    it into a CSV (to be edited in Excel) for my peers who would have otherwise undertaken this
-                    manually. The achieved throughput was 120 websites/minute, (then intentionally
-                    bottlenecked to prevent overloading the server).
+                    Built a high-speed web scraper to gather and consolidate data into CSV files, reducing manual data collection from 120 websites/min (later throttled).
                   </li>
                   <li>
-                    Used a combination of Natural Language Processing, Twitter API, PowerBI, SQL, AWS and
-                    Python to create a program that would elegantly display the public's 'sentiment' towards any
-                    specific keyword or phrase. A database was used to store the anonymized data and queried to
-                    show the graphs on the PowerBI interface.
+                    Leveraged NLP, Twitter API, AWS, SQL, Python, and Power BI to create a real-time sentiment analysis dashboard, enabling data-driven insights on public perception.
                   </li>
                 </ul>
                 {/* Education */}
@@ -103,14 +97,32 @@ function MainPage() {
                 <div className='w-full bg-[#2B343D] h-[2px]'></div>
                 <div className="text-[#2B343D] text-lg pt-2 pl-3"></div>
                 <div className="text-[#2B343D] text-lg pl-3">Imperial College London - Computer Engineering MEng</div>
-                <div className="text-[#2B343D] text-sm pl-3 font-light"><em>06/2020 - Present</em></div>
+                <div className="text-[#2B343D] text-sm pl-3 font-light"><em>06/2020 - 07/2024</em></div>
                 <div className="text-black pl-3 pt-1">
-                  {/* <Projects title="Portfolio Website/CV (05/2023 - Present)" description="On my website you will be able to see my projects in much greater detail. Developed using HTML, Tailwind CSS and ReactJS. This CV was written in HTML and Tailwind CSS."/> */}
-                  <Projects title="Digital Circuit Simulator and Simplifier (01/2019 - 12/2019)" description="Developed a digital circuit simulator and simplifier Python that was capable of producing an SOP expression for a given constructed logic circuit. The program also generated truth tables and had several advanced features such as the loading and saving of circuits."/>
-                  <Projects title="Dual Core CPU Design (06/2021 - 07/2021)" description="Successfully designed and tested a working dual-core CPU at gate-level and executed a program to find the mean value of integers in an array in memory. The program was hardcoded into the simulated RAM and performed twice as fast as its single-core counterpart."/>
-                  <Projects title="Building a C-Compiler (02/2022 - 03/2022)" description="Built a functioning C Compiler to generate MIPS Assembly from C code, represented using Abstract Syntax Trees and lexing/parsing using Flex, Bison and High-Level C++ OOP."/>
-                  <Projects title="Digital Systems Design (01/2023 - 04/2023)" description="Optimised and translated a mathematical function in SystemVerilog for efficiency and speed which was to run on an FPGA."/>
-                  <Projects title="Group Project: Online FPGA-Controlled Motion-Based Drawing Game (02/2022 - 03/2022)" description="Using a NIOS II Processor and Accelerometer on an Intel FPGA, we created a multiplayer drawing game (each client on different networks) that used the FPGA as a drawing tool/stylus. The accelerometer data passed through a moving-average filter, to enable smoother inputs for the user - all drawing tools were made available to the user through the FPGA's buttons and switches, and the user's score was shown clearly on the 8-segment displays."/>
+                <Projects 
+                  title="Master Thesis: Vision-Assisted Mechatronic Component Sorter (09/2023 - 06/2024)" 
+                  description="Developed an automated system for identifying and sorting electronic components (e.g., resistors, capacitors, LEDs) using computer vision techniques. Integrated custom 3D-printed mechanical parts, robust electronics, and multiprocessing-safe software to ensure real-time classification, concurrency management, and error handling. Designed a user-friendly interface and maintained cost-effective, modular components to streamline maintenance and future scalability."
+                />
+                <Projects 
+                  title="Pentesting and Network Security (01/2023 - 04/2023)" 
+                  description="Explored SQL injection vulnerabilities, common attack vectors, and best practices in a hands-on Capture the Flag format, gaining practical skills in threat mitigation."
+                />
+                <Projects 
+                  title="Deep Learning (01/2024 - 04/2024)" 
+                  description="Trained a CNN for image classification with hyperparameter tuning and data augmentation. Developed a DCGAN for realistic image generation and a Variational Autoencoder for image compression and reconstruction on the MNIST dataset."
+                />
+                 <Projects 
+                  title="Building a C-Compiler (02/2022 - 03/2022)" 
+                  description="Built a C compiler that generates MIPS Assembly from C code using Abstract Syntax Trees, Flex, Bison, and OOP-based C++."
+                />
+                <Projects 
+                  title="Digital Systems Design (01/2023 - 04/2023)" 
+                  description="Optimized a mathematical function in SystemVerilog for FPGA deployment, enhancing both speed and resource efficiency."
+                />
+                <Projects 
+                  title="Group Project: Online FPGA-Controlled Motion-Based Drawing Game (02/2022 - 03/2022)" 
+                  description="Utilized an Intel FPGA with a NIOS II Processor and accelerometer to create a multiplayer drawing game, featuring real-time smoothing, user controls via FPGA buttons/switches, and score displays on 8-segment LEDs."
+                />
                 </div>
               </div>
             </div>
